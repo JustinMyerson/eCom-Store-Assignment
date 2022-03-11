@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 /* When we hit a min width of 780px the color should change */
@@ -13,13 +13,13 @@ body {
 }
 
 .header {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
 }
 
 .footer {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     color: black;
     background-color: white;
 }
