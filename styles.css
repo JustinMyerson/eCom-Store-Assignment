@@ -14,12 +14,49 @@ body {
     .footer {
         display: flex;
     }
+
+    .header-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-list-items {
+        list-style-type: none;
+        color: black;
+        flex-direction: row;
+    }
+
+}
+
+.sale {
+    background-color: #01213F;
+}
+
+.inner-sale {
+    border: white;
+    border-style: solid;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.inner-sale {
+    color: #C48B98;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .header {
     font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
+}
+
+.header-list {
+    list-style-type: none;
+}
+
+.header-list-items {
+    list-style-type: none;
+    color: black;
 }
 
 .products {
@@ -44,7 +81,6 @@ body {
 }
 
 .page-wrapper {
-    display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
