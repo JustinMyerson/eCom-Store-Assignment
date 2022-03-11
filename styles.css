@@ -36,6 +36,10 @@ body {
         flex-direction: row;
         display: flex;
     }
+
+    .product-1 {
+        flex-direction: row;
+    }
 }
 
 .sale {
@@ -81,10 +85,22 @@ body {
     color: black;
 }
 
+.footer-list-items a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
 .products {
     font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
+    flex-direction: column;
+}
+
+.product-1 {
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .footer {
@@ -118,4 +134,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: #ffff;
+}
+
+.load-more {
+    background-color: #C48B98;
+    text-align: center;
+    color: white;
+    position: absolute;
 }
