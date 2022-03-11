@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 5px;
     height: 100vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
@@ -16,6 +16,7 @@ body {
     font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
+    box-shadow: 10px;
 }
 
 .products {
@@ -42,6 +43,7 @@ body {
     background-color: white;
     display: flex;
     margin: auto;
+    border: none;
 }
 
 .price-and-buttons {
