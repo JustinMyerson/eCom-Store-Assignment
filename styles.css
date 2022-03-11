@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Roboto, sans-serif
 }
 
 /* When we hit a min width of 780px the color should change */
@@ -9,53 +9,75 @@ body {
 @media screen and (min-width: 780px) {
     page-wrapper {
         background-color: white;
+        flex-grow: 1;
     }
 
     .footer {
         display: flex;
     }
 
-    .header-list {
+    .header-image {
+        flex-grow: 1;
+    }
+
+    .header {
+        flex-grow: 1;
         display: flex;
         flex-direction: row;
     }
 
-    .header-list-items {
-        list-style-type: none;
-        color: black;
-        flex-direction: row;
+    .header-list {
+        flex-grow: 1;
+        display: inline;
     }
 
+    .header-list-items {
+        color: black;
+        flex-direction: row;
+        display: flex;
+    }
 }
 
 .sale {
     background-color: #01213F;
+    text-align: center;
 }
 
 .inner-sale {
     border: white;
     border-style: solid;
+    display: inline-block;
+    padding: 10px;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Roboto, 
 }
 
-.inner-sale {
+.details {
+    display: inline-block;
+    border: #C48B98;
+    border-style: solid;
     color: #C48B98;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .header {
     font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
+    align-items: center;
+    text-align: center;
 }
 
 .header-list {
-    list-style-type: none;
+    color: black;
 }
 
-.header-list-items {
-    list-style-type: none;
+.header-image {
+    margin: 10px;
+}
+
+.header-list-items a {
+    list-style: none;
+    text-decoration: none;
     color: black;
 }
 
@@ -69,6 +91,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: black;
     background-color: white;
+    text-align: center;
 }
 
 .buttons {
