@@ -1,12 +1,52 @@
 body {
     margin: 0;
     height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* When we hit a min width of 780px the color should change */
+
+@media screen and (min-width: 780px) {
+    body {
+        background-color: saddlebrown;
+    }
 }
 
 .header {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif ;
     color: black;
     background-color: white;
+}
+
+.products {
+    font-family: "Roboto", sans-serif ;
+    color: black;
+    background-color: white;
+}
+
+.header-nav {
+    list-style: none;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.buttons {
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.price-and-buttons {
+    display: flex;
+    margin: auto
 }
 
 .page-wrapper {
@@ -14,7 +54,10 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-color: rgb(116, 128, 255);
+}
+
+.page-header {
+    background-color: white;
 }
 
 .content-wrapper {

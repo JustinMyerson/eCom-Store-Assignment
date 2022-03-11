@@ -3,18 +3,138 @@
   <head>
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
   </head>
 
   <body>
     <div class="page-wrapper">
       <div class="header">
-        <img src="ricca-header.svg" alt="ricca header image" class="ricca"/>
-        <nav class="furniture">FURNITURE</nav>
-        <nav class="about">ABOUT</nav>
-        <nav class="contact">CONTACT</nav>
+        <img src="ricca-header.svg" alt="ricca header image" class="ricca" />
+        <nav class="header-nav">
+          <ul class="header-nav">
+            <li style="text-decoration: none; color: black"><a href="#">FURNITURE</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <!-- next li child here -->
+        </nav>
       </div>
-      <content class="page-content">Content</content>
-      <footer class="page-footer">Footer</footer>
+
+      <div class="products">
+        <div class="sale"></div>
+        <div class="product-1">
+          <img
+            src="countessa.svg"
+            alt="countessa product image"
+            class="countessa"
+          />
+          <h3 class="countessa">COUNTESSA</h3>
+          <div class="price-and-buttons">
+            <div class="price">
+              <h4
+                class="old-price"
+                style="text-decoration: line-through; color: #8c8c8c"
+              >
+                R 899.99
+              </h4>
+              <h4 class="new-price">R 549.99</h4>
+            </div>
+            <div class="buttons">
+              <button class="like">
+                <img src="like.svg" alt="like product button" />
+              </button>
+              <button class="add-to-cart">
+                <img src="cart.svg" alt="add to cart button" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-2">
+          <img
+            src="supreme.svg"
+            alt="supreme black product image"
+            class="supreme"
+          />
+          <h3 class="supreme">SUPREME BLACK</h3>
+          <div class="price-and-buttons">
+            <div class="price">
+              <h4
+                class="old-price"
+                style="text-decoration: line-through; color: #8c8c8c"
+              >
+                R 2, 199.99
+              </h4>
+              <h4 class="new-price">R 1, 249.99</h4>
+            </div>
+            <div class="buttons">
+              <button class="like">
+                <img src="like.svg" alt="like product button" />
+              </button>
+              <button class="add-to-cart">
+                <img src="cart.svg" alt="add to cart button" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-3">
+          <img
+            src="beachcomer.svg"
+            alt="beachcomer product image"
+            class="beachcomer"
+          />
+          <h3 class="beachcomer">BEACHCOMER</h3>
+          <div class="price-and-buttons">
+            <div class="price">
+              <h4
+                class="old-price"
+                style="text-decoration: line-through; color: #8c8c8c"
+              >
+                R 1, 099.99
+              </h4>
+              <h4 class="new-price">R 899.99</h4>
+            </div>
+            <div class="buttons">
+              <button class="like">
+                <img src="like.svg" alt="like product button" />
+              </button>
+              <button class="add-to-cart">
+                <img src="cart.svg" alt="add to cart button" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="load-more"></div>
+      </div>
+
+      <div class="footer">
+        <div class="ricca-footer">
+          <h3 class="ricca-footer">RICCA</h3>
+        </div>
+        <div class="about">
+          <nav class="our-story">Our Story</nav>
+          <nav class="green-initiative">Our Green Initiative</nav>
+          <nav class="store-locator">Store Locator</nav>
+          <nav class="careers">Careers</nav>
+        </div>
+        <div class="account">
+          <h3 class="account">ACCOUNT</h3>
+          <nav class="your-cart">Your Cart</nav>
+          <nav class="wishlist">Your Wishlist</nav>
+          <nav class="orders">Orders</nav>
+        </div>
+        <div class="services"></div>
+        <h3 class="services">SERVICES</h3>
+        <nav class="t-and-c">Terms & Conditions</nav>
+        <nav class="privacy">Privacy Policy</nav>
+        <nav class="faq">FAQ</nav>
+        <img
+          src="ricca-header.svg"
+          alt="ricca footer image"
+          class="rica-footer"
+        />
+      </div>
     </div>
   </body>
 </html>
