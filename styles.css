@@ -1,6 +1,15 @@
 body {
     margin: 0;
     height: 100vh;
+    background-color: aquamarine;
+}
+
+/* When we hit a min width of 780px the color should change */
+
+@media screen and (min-width: 780px) {
+    body {
+        background-color: saddlebrown;
+    }
 }
 
 .page-wrapper {
@@ -8,7 +17,10 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-color: rgb(116, 128, 255);
+}
+
+.page-header {
+    background-color: white;
 }
 
 .content-wrapper {
