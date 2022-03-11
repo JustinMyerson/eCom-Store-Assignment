@@ -12,6 +12,12 @@ body {
     }
 }
 
+.header {
+    font-family: Roboto;
+    color: black;
+    background-color: white;
+}
+
 .page-wrapper {
     display: flex;
     flex-direction: column;
