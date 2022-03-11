@@ -18,11 +18,18 @@ body {
     background-color: white;
 }
 
+.products {
+    font-family: "Roboto", sans-serif ;
+    color: black;
+    background-color: white;
+}
+
 .footer {
     font-family: "Roboto", sans-serif;
     color: black;
     background-color: white;
 }
+
 
 .page-wrapper {
     display: flex;
