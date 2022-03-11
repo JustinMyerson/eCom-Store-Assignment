@@ -7,8 +7,12 @@ body {
 /* When we hit a min width of 780px the color should change */
 
 @media screen and (min-width: 780px) {
-    body {
-        background-color: saddlebrown;
+    page-wrapper {
+        background-color: white;
+    }
+
+    .footer {
+        display: flex;
     }
 }
 
@@ -38,9 +42,6 @@ body {
 .price-and-buttons {
     display: flex;
 }
-
-
-
 
 .page-wrapper {
     display: flex;
