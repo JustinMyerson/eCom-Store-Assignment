@@ -83,12 +83,14 @@ body {
     list-style: none;
     text-decoration: none;
     color: black;
+    font-size: 22px;
 }
 
 .footer-list-items a {
     list-style: none;
     text-decoration: none;
     color: black;
+    font-size: 15px;
 }
 
 .products {
@@ -141,4 +143,9 @@ body {
     text-align: center;
     color: white;
     position: absolute;
+}
+
+.ricca-footer-image {
+    display: flex;
+    justify-content: center;
 }
