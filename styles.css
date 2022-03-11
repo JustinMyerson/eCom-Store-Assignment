@@ -30,6 +30,17 @@ body {
     background-color: white;
 }
 
+.buttons {
+    background-color: white;
+    display: flex;
+}
+
+.price-and-buttons {
+    display: flex;
+}
+
+
+
 
 .page-wrapper {
     display: flex;
