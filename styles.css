@@ -38,7 +38,8 @@ div {
   .header-list-items {
     color: black;
     flex-direction: row;
-    display: flex;
+    display: flex; 
+    float: right;
   }
 
   .product-1 {
