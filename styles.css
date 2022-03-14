@@ -21,10 +21,18 @@ div {
     width: 100%;
   }
 
-  .services-footer, .account-footer, .ricca-footer {
+  .sale {
       width: 100%;
   }
 
+  .inner-sale {
+      width: 50%;
+  }
+
+
+  .services-footer, .account-footer, .ricca-footer {
+      width: 100%;
+  }
 
   .header-image {
     display: flex;
@@ -65,14 +73,7 @@ div {
 .sale {
   background-color: #01213f;
   text-align: center;
-
-  width: 368px;
-  height: 296px;
-  left: calc(50% - 368px / 2 - 1px);
-  top: 53px;
-
-  border: 8px solid #ffffff;
-  box-sizing: border-box;
+  margin: 0;
 }
 
 .see-deals {
@@ -97,17 +98,14 @@ div {
 }
 
 .inner-sale {
-  width: 368px;
-  height: 296px;
-  left: calc(50% - 368px / 2 - 1px);
-  top: 53px;
-
+  margin: 20px;
   border: 8px solid #ffffff;
-  box-sizing: border-box;
+  display: inline-block;
   color: #ffffff;
 }
 
 .details {
+  margin: 20px;
   display: inline-block;
   border: #c48b98;
   border-style: solid;
