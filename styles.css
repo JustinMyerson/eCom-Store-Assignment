@@ -28,8 +28,6 @@ div {
   .inner-sale {
       width: 50%;
   }
-
-
   .services-footer, .account-footer, .ricca-footer {
       width: 100%;
   }
@@ -58,7 +56,12 @@ div {
   }
 
   .product-1 {
-    flex-direction: row;
+      background-color: tan;
+  }
+
+  .price-and-buttons {
+      display: flex;
+      flex-direction: column;
   }
 
   .winter-sale {
@@ -149,9 +152,14 @@ div {
   flex-direction: column;
 }
 
-.product-1 {
-  flex-direction: column;
-  flex-grow: 1;
+
+.img-wrapper {
+    display: inline-block; 
+    overflow: hidden;      
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .footer {
@@ -162,12 +170,25 @@ div {
 }
 
 .buttons {
-  background-color: white;
-  display: flex;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.like, .cart {
+    margin: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .price-and-buttons {
   display: flex;
+  flex-direction: row;
 }
 
 .page-wrapper {
