@@ -59,13 +59,16 @@ div {
     float: right;
   }
 
-  .product-1 {
+  .product{
     background-color: tan;
     flex-direction: row;
-    float: right;
   }
 
-  .price-and-buttons {
+  .img-wrapper {
+      box-sizing: border-box;
+  }
+
+  .name-price-and-buttons {
     display: flex;
     flex-direction: column;
   }
@@ -151,11 +154,11 @@ div {
   font-size: 15px;
 }
 
-.products {
+.product {
   font-family: "Roboto", sans-serif;
   color: black;
   background-color: white;
-  flex-direction: column;
+  margin: 0;
 }
 
 .img-wrapper {
@@ -165,6 +168,7 @@ div {
   outline: none;
   border: none;
   cursor: pointer;
+  width: 100%;
 }
 
 .footer {
