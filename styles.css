@@ -4,7 +4,7 @@ body {
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 /* When we hit a min width of 780px the color should change */
@@ -22,14 +22,17 @@ div {
   }
 
   .sale {
-      width: 100%;
+    width: 100%;
   }
 
   .inner-sale {
-      width: 50%;
+    width: 50%;
   }
-  .services-footer, .account-footer, .ricca-footer {
-      width: 100%;
+
+  .services-footer,
+  .account-footer,
+  .ricca-footer {
+    width: 100%;
   }
 
   .header-image {
@@ -51,17 +54,19 @@ div {
   .header-list-items {
     color: black;
     flex-direction: row;
-    display: flex; 
+    display: flex;
     float: right;
   }
 
   .product-1 {
-      background-color: tan;
+    background-color: tan;
+    flex-direction: row;
+    float: right;
   }
 
   .price-and-buttons {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .winter-sale {
@@ -152,14 +157,13 @@ div {
   flex-direction: column;
 }
 
-
 .img-wrapper {
-    display: inline-block; 
-    overflow: hidden;      
-    background: none;
-    outline: none;
-    border: none;
-    cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .footer {
@@ -180,17 +184,19 @@ div {
   margin: auto;
 }
 
-.like, .cart {
-    margin: 5px;
-    background: none;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.like,
+.cart {
+  margin: 5px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .price-and-buttons {
   display: flex;
   flex-direction: row;
+  margin-left: 10px;
 }
 
 .page-wrapper {
@@ -203,6 +209,10 @@ div {
   background-color: white;
 }
 
+h3 {
+    margin-left: 10px;
+}
+
 .content-wrapper {
   max-width: 800px;
   width: 100%;
@@ -210,10 +220,15 @@ div {
   background-color: #ffff;
 }
 
-.load-more {
+.load-more-button {
   background-color: #c48b98;
-  text-align: center;
   color: white;
+  border: none;
+  font-size: 22px;
+}
+
+.load-more-div {
+  text-align: center;
 }
 
 .ricca-footer-image {
@@ -223,7 +238,7 @@ div {
 }
 
 .load-more {
-    width: 374px;
-    height: 80px;
-    background: #c48b98;
+  width: 374px;
+  height: 80px;
+  background: #c48b98;
 }
