@@ -18,7 +18,8 @@ div {
   .footer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .sale {
@@ -32,7 +33,7 @@ div {
   .services-footer,
   .account-footer,
   .ricca-footer {
-    width: 100%;
+      width: auto;
   }
 
   .header-image {
