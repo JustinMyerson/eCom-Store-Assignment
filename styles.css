@@ -174,8 +174,10 @@ div {
   cursor: pointer;
   outline: none;
   border: none;
-  margin-left: 100px;
+  /* margin-left: 100px;
   margin-right: 10px;
+  margin-top: auto; */
+  margin: auto;
 }
 
 .like, .cart {
