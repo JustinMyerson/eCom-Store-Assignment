@@ -203,6 +203,7 @@ div {
 .ricca-footer-image {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 .load-more {
