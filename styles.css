@@ -19,6 +19,18 @@ div {
     display: flex;
   }
 
+  .ricca-footer {
+      float: left;
+  }
+
+  .account-footer {
+      float: center;
+  }
+
+  .services {
+      float: right;
+  }
+
   .header-image {
     display: flex;
     justify-content: center;
