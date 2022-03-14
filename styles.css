@@ -17,19 +17,14 @@ div {
 
   .footer {
     display: flex;
+    flex-direction: row;
+    width: 100%;
   }
 
-  .ricca-footer {
-      float: left;
+  .services-footer, .account-footer, .ricca-footer {
+      width: 100%;
   }
 
-  .account-footer {
-      float: center;
-  }
-
-  .services {
-      float: right;
-  }
 
   .header-image {
     display: flex;
