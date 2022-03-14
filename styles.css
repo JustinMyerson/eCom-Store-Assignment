@@ -30,6 +30,11 @@ div {
     width: 50%;
   }
 
+  .info {
+    font-size: 32px;
+      display: flex;
+  }
+
   .services-footer,
   .account-footer,
   .ricca-footer {
@@ -163,13 +168,13 @@ div {
   flex-direction: column;
 }
 
-.real-price {
+.old-price {
   text-decoration: line-through;
   color: #8c8c8c;
   font-size: 28px;
 }
 
-.chair-picture {
+.img-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -203,16 +208,6 @@ div {
 
 .products {
     flex-direction: column;
-}
-
-.img-wrapper {
-  display: inline-block;
-  overflow: hidden;
-  background: none;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  width: 100%;
 }
 
 .footer {
@@ -258,7 +253,7 @@ div {
   background-color: white;
 }
 
-h3 {
+h2 {
   margin-left: 10px;
 }
 
