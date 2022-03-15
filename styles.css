@@ -5,21 +5,21 @@ body {
   overflow: auto;
 }
 
-div {
-  display: block;
-}
-
-/* When we hit a min width of 780px the color should change */
-
 @media screen and (min-width: 780px) {
-  page-wrapper {
-    background-color: white;
-    flex-grow: 1;
+  .product {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reverse-product {
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .chair-description {
     display: inline !important;
-    font-size: 32px;
+    flex-grow: 1;
+    font-size: 22px;
     display: flex;
   }
 
@@ -29,7 +29,7 @@ div {
   }
 
   .img-wrapper {
-    max-height: 327px;
+    flex-direction: row;
   }
 
   .footer {
@@ -76,22 +76,6 @@ div {
     flex-direction: row;
     display: flex;
     float: right;
-  }
-
-  .product {
-    display: flex;
-    flex-direction: row;
-    max-height: 327px;
-  }
-
-  .reverse-product {
-    display: flex;
-    flex-direction: row-reverse;
-    max-height: 327px;
-  }
-
-  .name-price-and-buttons {
-    flex-direction: column;
   }
 
   .winter-sale {
@@ -144,6 +128,7 @@ div {
 .info {
   font-size: 32px;
   display: flex;
+  flex-grow: 1;
 }
 
 .details {
@@ -193,7 +178,7 @@ div {
   background-color: white;
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .old-price {
@@ -221,6 +206,7 @@ div {
 
 .chair-description {
   display: none;
+  padding-bottom: 10px;
 }
 
 .current-price {
@@ -230,7 +216,7 @@ div {
 .reverse-product {
   font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 20px;
 }
 
@@ -251,9 +237,6 @@ div {
   cursor: pointer;
   outline: none;
   border: none;
-  /* margin-left: 100px;
-  margin-right: 10px;
-  margin-top: auto; */
   margin: auto;
 }
 
