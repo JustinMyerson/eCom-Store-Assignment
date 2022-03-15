@@ -16,16 +16,16 @@ div {
   }
 
   .chair-description {
-    display:inline !important;
+    display: inline !important;
     font-size: 32px;
-  display: flex;
+    display: flex;
   }
 
   .footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-right: 20px;
   }
 
   .sale {
