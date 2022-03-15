@@ -153,7 +153,8 @@ div {
 }
 
 .header-image {
-  margin: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
 }
 
 .header-list-items a {
@@ -161,6 +162,7 @@ div {
   text-decoration: none;
   color: black;
   font-size: 22px;
+  justify-content: center;
 }
 
 .footer-list-items a {
