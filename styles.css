@@ -40,6 +40,7 @@ div {
   .account-footer,
   .ricca-footer {
     width: auto;
+    padding: 10px;
   }
 
   .header-image {
@@ -90,6 +91,10 @@ div {
 
   .products {
     flex-direction: row;
+  }
+
+  .footer-list-items {
+    padding: 0px;
   }
 }
 
@@ -170,6 +175,7 @@ div {
   text-decoration: none;
   color: black;
   font-size: 15px;
+  padding: 0%;
 }
 
 .product {
@@ -299,4 +305,10 @@ h2 {
   width: 374px;
   height: 80px;
   background: #c48b98;
+}
+
+.services-footer,
+.account-footer,
+.ricca-footer {
+  width: auto;
 }
