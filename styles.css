@@ -23,6 +23,15 @@ div {
     display: flex;
   }
 
+  .chair-details {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-wrapper {
+    max-height: 327px;
+  }
+
   .footer {
     display: flex;
     flex-direction: row;
@@ -70,20 +79,18 @@ div {
   }
 
   .product {
-    background-color: tan;
+    display: flex;
     flex-direction: row;
+    max-height: 327px;
   }
 
   .reverse-product {
-      flex-direction: row-reverse;
-  }
-
-  .img-wrapper {
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 327px;
   }
 
   .name-price-and-buttons {
-    display: flex;
     flex-direction: column;
   }
 
@@ -93,10 +100,6 @@ div {
 
   .percent-off {
     font-size: 50px;
-  }
-
-  .products {
-    flex-direction: row;
   }
 
   .footer-list-items {
@@ -201,7 +204,7 @@ div {
 
 .img-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .chair-name {
@@ -232,6 +235,7 @@ div {
 }
 
 .products {
+  display: flex;
   flex-direction: column;
 }
 
