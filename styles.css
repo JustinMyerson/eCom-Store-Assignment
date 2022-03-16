@@ -195,6 +195,7 @@ body {
 .chair-name {
   display: flex;
   font-size: 38px;
+  margin: 0px;
 }
 
 .chair-details {
