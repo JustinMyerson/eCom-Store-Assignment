@@ -24,10 +24,12 @@ body {
   .chair-details {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
   }
 
   .img-wrapper {
     flex-direction: row;
+    flex-grow: 1;
   }
 
   .footer {
