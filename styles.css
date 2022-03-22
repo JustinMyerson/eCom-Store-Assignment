@@ -312,16 +312,17 @@ h2 {
 .icons {
   display: flex;
   flex-direction: row;
+  margin-right: 40px;
 }
 
 .prices-and-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 10px;
 }
 
 .prices {
   display: flex;
   flex-direction: column;
+  font-size: 28px;
 }
