@@ -24,7 +24,7 @@ body {
   .chair-details {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 
   .img-wrapper {
@@ -145,6 +145,7 @@ body {
   background-color: white;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .header-list {
@@ -154,6 +155,7 @@ body {
 .header-image {
   margin-top: 10px;
   margin-left: 40px;
+  padding: 0px;
 }
 
 .header-list-items a {
@@ -305,4 +307,21 @@ h2 {
 .account-footer,
 .ricca-footer {
   width: auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.prices-and-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
 }
