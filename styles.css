@@ -11,31 +11,43 @@ body {
   margin: 0;
 }
 
-.see-deals {
+.button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
+  cursor: pointer;
+}
+
+.see-deals {
   line-height: 26px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #c48b98;
   background: #01213f;
+  padding: 20px 40px;
+  border: #c48b98;
+  border-style: solid;
+  color: #c48b98;
 }
 
 .winter-sale {
   font-size: 45px;
+  margin-bottom: 0;
 }
 
 .percent-off {
   font-size: 38px;
+  margin-top: 0;
 }
 
 .inner-sale {
   margin: 20px;
+  padding: 20px;
   border: 8px solid #ffffff;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
 }
 
@@ -47,10 +59,8 @@ body {
 
 .details {
   margin: 20px;
-  display: inline-block;
-  border: #c48b98;
-  border-style: solid;
-  color: #c48b98;
+  display: flex;
+  justify-content: center;
 }
 
 .header {
@@ -283,10 +293,13 @@ h2 {
 
   .sale {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .inner-sale {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .services-footer,
@@ -333,7 +346,7 @@ h2 {
   }
 
   .header-list-items li {
-    padding-left: 10px;
+    padding-left: 30px;
     margin-bottom: 0;
   }
 }
