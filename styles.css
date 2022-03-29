@@ -60,6 +60,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+  padding: 30px;
 }
 
 .header-list {
@@ -67,9 +68,15 @@ body {
 }
 
 .header-image {
-  margin-top: 10px;
-  margin-left: 40px;
-  padding: 0px;
+}
+
+.header-list-items li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.header-list-items li:last-of-type {
+  margin-bottom: 0;
 }
 
 .header-list-items a {
@@ -323,5 +330,10 @@ h2 {
 
   .footer-list-items {
     padding: 0px;
+  }
+
+  .header-list-items li {
+    padding-left: 10px;
+    margin-bottom: 0;
   }
 }
