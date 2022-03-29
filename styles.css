@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #c48b98;
+  color: #c48b98; 
   background: #01213f;
   padding: 20px 40px;
   border: #c48b98;
@@ -112,6 +112,8 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 15px 30px 7px #e5e5e5; 
+  margin-bottom: 20px;
 }
 
 .old-price {
@@ -133,7 +135,6 @@ body {
 
 .chair-details {
   display: flex;
-  box-shadow: 0px 15px 30px 7px #e5e5e5;
   flex-direction: column;
   padding: 25px;
 }
@@ -155,11 +156,15 @@ body {
   display: flex;
   padding: 20px;
   flex-direction: column;
+  box-shadow: 0px 15px 30px 7px #e5e5e5;
 }
 
 .products {
   display: flex;
   flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .footer {
@@ -249,7 +254,12 @@ h2 {
 .icons {
   display: flex;
   flex-direction: row;
-  margin-right: 40px;
+  align-items: flex-end;
+}
+
+.icons img {
+  width: 45px;
+  height: auto;
 }
 
 .prices-and-icons {
