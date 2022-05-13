@@ -295,7 +295,6 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 20px;
   }
 
   .sale {
@@ -305,14 +304,21 @@ h2 {
     align-items: center;
   }
 
-  .inner-sale {
-    /* width: 50%; */
-  }
-
   .services-footer,
   .account-footer,
   .ricca-footer {
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .account-footer-header,
+  .ricca-footer-header,
+  .services-footer-header {
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .header-image {
@@ -347,9 +353,8 @@ h2 {
     font-size: 50px;
   }
 
-  .footer-list-items {
-    padding: 0px;
-    margin: 0px;
+  .footer-list-items a {
+    margin-right: 0px;
   }
 
   .footer-list-items li {
@@ -359,5 +364,15 @@ h2 {
   .header-list-items li {
     padding-left: 30px;
     margin-bottom: 0;
+  }
+
+  .ricca-footer-image {
+    margin: 0px;
+    padding-top: 20px;
+  }
+
+  .footer-list-items {
+    margin: 0px;
+    padding: 0px;
   }
 }
