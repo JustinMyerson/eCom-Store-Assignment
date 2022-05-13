@@ -8,7 +8,7 @@ body {
 .sale {
   background-color: #01213f;
   text-align: center;
-  margin: 0;
+  padding: 15px;
 }
 
 .button {
@@ -43,8 +43,6 @@ body {
 }
 
 .inner-sale {
-  margin: 20px;
-  padding: 20px;
   border: 8px solid #ffffff;
   display: flex;
   flex-direction: column;
@@ -70,7 +68,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 0px 30px;
+  padding: 10px 30px;
 }
 
 .header-list {
@@ -100,6 +98,10 @@ body {
   color: black;
   font-size: 15px;
   margin-right: 40px;
+}
+
+.footer-list-items li {
+  list-style: none;
 }
 
 .product {
@@ -302,6 +304,10 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .inner-sale {
+    padding: 10px;
   }
 
   .services-footer,
