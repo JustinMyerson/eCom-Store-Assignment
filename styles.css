@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #c48b98; 
+  color: #c48b98;
   background: #01213f;
   padding: 20px 40px;
   border: #c48b98;
@@ -70,14 +70,11 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .header-list {
   color: black;
-}
-
-.header-image {
 }
 
 .header-list-items li {
@@ -112,7 +109,7 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 15px 30px 7px #e5e5e5; 
+  box-shadow: 0px 15px 30px 7px #e5e5e5;
   margin-bottom: 20px;
 }
 
@@ -124,7 +121,7 @@ body {
 
 .img-wrapper {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .chair-name {
@@ -316,7 +313,6 @@ h2 {
   .account-footer,
   .ricca-footer {
     width: auto;
-    padding: 10px;
   }
 
   .header-image {
@@ -353,6 +349,11 @@ h2 {
 
   .footer-list-items {
     padding: 0px;
+    margin: 0px;
+  }
+
+  .footer-list-items li {
+    list-style: none;
   }
 
   .header-list-items li {
